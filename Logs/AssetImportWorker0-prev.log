@@ -1,128 +1,137 @@
 Using pre-set license
 Built from '2021.1/staging' branch; Version is '2021.1.17f1 (03b40fe07a36) revision 242703'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19043.1889; Version 2009; 64bit' Language: 'en' Physical Memory: 16318 MB
+OS: 'Windows 10 Education; OS build 19042.1706; Version 2009; 64bit' Language: 'en' Physical Memory: 16234 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2021.1.17f1\Editor\Unity.exe
+C:\Program Files\Unity 2021.1.17f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/user/Documents/Unity Projects/Scrolling-Screen-Game
+D:/Users/Pete/Level 3 Year 1/Scrolling Screen Game/Scrolling-Screen-Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60134
-Successfully changed project path to: C:/Users/user/Documents/Unity Projects/Scrolling-Screen-Game
-C:/Users/user/Documents/Unity Projects/Scrolling-Screen-Game
+64600
+Successfully changed project path to: D:/Users/Pete/Level 3 Year 1/Scrolling Screen Game/Scrolling-Screen-Game
+D:/Users/Pete/Level 3 Year 1/Scrolling Screen Game/Scrolling-Screen-Game
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 155.47 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 90.47 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.17f1 (03b40fe07a36)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.17f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/user/Documents/Unity Projects/Scrolling-Screen-Game/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.1.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Users/Pete/Level 3 Year 1/Scrolling Screen Game/Scrolling-Screen-Game/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Renderer: NVIDIA GeForce GTX 1080 (ID=0x1b80)
     Vendor:   NVIDIA
-    VRAM:     8088 MB
-    Driver:   31.0.15.1659
+    VRAM:     8079 MB
+    Driver:   30.0.14.7168
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.17f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56204
+Mono path[0] = 'C:/Program Files/Unity 2021.1.17f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.1.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity 2021.1.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56732
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002408 seconds.
+Register platform support module: C:/Program Files/Unity 2021.1.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity 2021.1.17f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity 2021.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity 2021.1.17f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity 2021.1.17f1/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
+Registered in 0.002303 seconds.
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 121.69 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 94.45 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.445 seconds
+- Completed reload, in  1.682 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1445ms)
-		BeginReloadAssembly (72ms)
+	ReloadAssembly (1682ms)
+		BeginReloadAssembly (53ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (553ms)
-			LoadAssemblies (70ms)
+		EndReloadAssembly (428ms)
+			LoadAssemblies (53ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (188ms)
+			SetupTypeCache (147ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (279ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (215ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (122ms)
+				RefreshPlugins (95ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (114ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
+				ProcessInitializeOnLoadAttributes (85ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007390 seconds.
+Registered in 0.004849 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\Unity Projects\Scrolling-Screen-Game\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\Unity Projects\Scrolling-Screen-Game\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Users\Pete\Level 3 Year 1\Scrolling Screen Game\Scrolling-Screen-Game\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Users\Pete\Level 3 Year 1\Scrolling Screen Game\Scrolling-Screen-Game\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 132.72 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 90.50 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.702 seconds
+- Completed reload, in  1.541 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1703ms)
-		BeginReloadAssembly (179ms)
+	ReloadAssembly (1541ms)
+		BeginReloadAssembly (132ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (1453ms)
-			LoadAssemblies (151ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (1361ms)
+			LoadAssemblies (441ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (454ms)
+			SetupTypeCache (309ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (639ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (477ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (133ms)
-				BeforeProcessingInitializeOnLoad (98ms)
-				ProcessInitializeOnLoadAttributes (376ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				RefreshPlugins (91ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (287ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 1.17 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.66 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3677 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 136.3 MB.
 System memory in use after: 136.5 MB.
 
 Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 4126.
-Total: 3.830700 ms (FindLiveObjects: 0.320700 ms CreateObjectMapping: 0.174500 ms MarkObjects: 3.256100 ms  DeleteObjects: 0.078400 ms)
+Total: 3.630200 ms (FindLiveObjects: 0.279600 ms CreateObjectMapping: 0.157700 ms MarkObjects: 3.135000 ms  DeleteObjects: 0.057000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -136,548 +145,66 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes
-  artifactKey: Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffae677c86e903bacef8065336249a81') in 0.010648 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000336 seconds.
   path: Assets/Scenes/Level 1.unity
   artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level 1.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6525f0bd0f32970b3fc4a72c16cec7ac') in 0.019130 seconds 
+Start importing Assets/Scenes/Level 1.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6525f0bd0f32970b3fc4a72c16cec7ac') in 0.013942 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 39.025761 seconds.
-  path: Assets/2D Art/Palettes
-  artifactKey: Guid(0dfb022bcb16cef478306005f73007c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes using Guid(0dfb022bcb16cef478306005f73007c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b16215b29afd636390ec88febae5ec53') in 0.007528 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.727665 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette
-  artifactKey: Guid(a63cc05b0e6c7ab4a90aba99e99c19a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette using Guid(a63cc05b0e6c7ab4a90aba99e99c19a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e02080d20fa276a9b3dd38f1787a768a') in 0.006130 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.078131 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/Outdoor Floor.prefab
-  artifactKey: Guid(78ad8ead2b200c542b61f42644d09d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/Outdoor Floor.prefab using Guid(78ad8ead2b200c542b61f42644d09d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0954104401c5d49895e6f9a947450559') in 0.174465 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_53.asset
-  artifactKey: Guid(bd35454a22bfac5459f5440f96d358d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_53.asset using Guid(bd35454a22bfac5459f5440f96d358d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7786e3a91acaea27debf5ce686a93db1') in 0.026095 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_64.asset
-  artifactKey: Guid(f26772ca5b00e49498d4758d7b9531e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_64.asset using Guid(f26772ca5b00e49498d4758d7b9531e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc4f7b77ebbf92fa31d77ae6df9f1255') in 0.013265 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_60.asset
-  artifactKey: Guid(61754b5adbcc6ec4d98100d3dfe8a755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_60.asset using Guid(61754b5adbcc6ec4d98100d3dfe8a755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e95873f87fcc7967b8f8820c2724f6') in 0.013666 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000325 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_9.asset
-  artifactKey: Guid(d93af12e9afd64f419496a373374cd05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_9.asset using Guid(d93af12e9afd64f419496a373374cd05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b36d41ba0816149e096d4a9c7945ca0b') in 0.012979 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000363 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_34.asset
-  artifactKey: Guid(dc8378c280fb3b14cb116680ad5a671d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_34.asset using Guid(dc8378c280fb3b14cb116680ad5a671d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a01d987e66fc9e4c5ccc22248392d3e4') in 0.015211 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000385 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_37.asset
-  artifactKey: Guid(6fc3c365fa72a82468f3a3bd80785e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_37.asset using Guid(6fc3c365fa72a82468f3a3bd80785e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0194b851bd1c4b011936fd272c7b487d') in 0.011886 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_32.asset
-  artifactKey: Guid(a487845c1b46eaf46ae27cb5ffa82950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_32.asset using Guid(a487845c1b46eaf46ae27cb5ffa82950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5d6d06c2202df14fc65ca69058cdc59') in 0.013113 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_66.asset
-  artifactKey: Guid(f8b94401f52493549ab48052cd3db025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_66.asset using Guid(f8b94401f52493549ab48052cd3db025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3015922b6866cf15bcf6021864b14118') in 0.012182 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_3.asset
-  artifactKey: Guid(399db4c6a2c7cc24aa34500eb7bef7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_3.asset using Guid(399db4c6a2c7cc24aa34500eb7bef7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ca404f2ebda779c53a8178adb34ab18') in 0.011584 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_20.asset
-  artifactKey: Guid(fe5e0771987b96840ac4de94a75fb934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_20.asset using Guid(fe5e0771987b96840ac4de94a75fb934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '901ccd6301c42fe845cdc025b3d3d115') in 0.013430 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000292 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_43.asset
-  artifactKey: Guid(9d79dba1c5784a34d989304bf55a20c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_43.asset using Guid(9d79dba1c5784a34d989304bf55a20c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2df8c4a21b53ecf4f5452b70ffb8198') in 0.012006 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000289 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_5.asset
-  artifactKey: Guid(afbebde5720f27343b130b01d7377a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_5.asset using Guid(afbebde5720f27343b130b01d7377a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62aa0b8f191ddd0c9ac56c444e1722e4') in 0.012492 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_14.asset
-  artifactKey: Guid(30d4bfccae6e534429788ff3909cf519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_14.asset using Guid(30d4bfccae6e534429788ff3909cf519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23ca201cfa71417eaade33dfa1c74b9d') in 0.013066 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_21.asset
-  artifactKey: Guid(c5a61f734691d204a947d0d4a2312b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_21.asset using Guid(c5a61f734691d204a947d0d4a2312b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f786f9d5c0ec71a1e22ef9ff04158a28') in 0.012578 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_19.asset
-  artifactKey: Guid(43573627784c6244badc766b29e29e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_19.asset using Guid(43573627784c6244badc766b29e29e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '376d87713cf5924367529ca2bb10ccb6') in 0.013014 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000358 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_25.asset
-  artifactKey: Guid(f484947a6a779fc458a2c28608d3a227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_25.asset using Guid(f484947a6a779fc458a2c28608d3a227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a89630bbb2b691665c495a4bb9597ec0') in 0.011937 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_54.asset
-  artifactKey: Guid(c303d62a38e835d4c8d4eddbe8270568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_54.asset using Guid(c303d62a38e835d4c8d4eddbe8270568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85a671b07de1cf150f09a58b690e701b') in 0.012124 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_63.asset
-  artifactKey: Guid(f969dea0d50927847a0fe9aad2ae13cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_63.asset using Guid(f969dea0d50927847a0fe9aad2ae13cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c5c2a4872b0fcdeabf60ec0b01b63ad') in 0.012861 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000325 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_28.asset
-  artifactKey: Guid(d723607b079246346a166c5ad34378b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_28.asset using Guid(d723607b079246346a166c5ad34378b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a60b51758a537ff89e54f852c32f909') in 0.012988 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000357 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_18.asset
-  artifactKey: Guid(8f7faa284a3b4d9499584c0c20a8b464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_18.asset using Guid(8f7faa284a3b4d9499584c0c20a8b464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfa444e1a10639e3b5ff83029e85664e') in 0.014400 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000503 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_16.asset
-  artifactKey: Guid(ca3b36e939809bf42a07654b185703b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_16.asset using Guid(ca3b36e939809bf42a07654b185703b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c15bb6fb20daaa435a5c9e20107a6f4') in 0.010730 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_47.asset
-  artifactKey: Guid(039574f6d9b7cda4a9f2e131662db6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_47.asset using Guid(039574f6d9b7cda4a9f2e131662db6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd265be51f39974acaa972eb4870bd01') in 0.011670 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000312 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_30.asset
-  artifactKey: Guid(eefdb9fbf5178d64991812542e989fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_30.asset using Guid(eefdb9fbf5178d64991812542e989fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '139e8760a84567b19309a71725584ca8') in 0.013383 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_46.asset
-  artifactKey: Guid(d77626074ebe1d84da7ff0a842723429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_46.asset using Guid(d77626074ebe1d84da7ff0a842723429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adc0b288f11cd4cff7ebc50d64ba8f3d') in 0.014050 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_57.asset
-  artifactKey: Guid(5af967e9bd5beba4ca1d2a0be328bca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_57.asset using Guid(5af967e9bd5beba4ca1d2a0be328bca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2dc6755278a579b36648dd5f516e821') in 0.011951 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_59.asset
-  artifactKey: Guid(34a42ba4df73ee0498a87e3d28455edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_59.asset using Guid(34a42ba4df73ee0498a87e3d28455edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b5642a4b7a95ce434b5b63c977a01b9') in 0.013561 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_10.asset
-  artifactKey: Guid(ddc027f2aa7d66e419c472648551c095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_10.asset using Guid(ddc027f2aa7d66e419c472648551c095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f05e5c2405bb9a6e02e32414d34791c') in 0.010367 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_26.asset
-  artifactKey: Guid(3a88cb84678b011429683c2829432160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_26.asset using Guid(3a88cb84678b011429683c2829432160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '473cd3fde4cbe3bb30ca1d3cfc293b94') in 0.011961 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000329 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_29.asset
-  artifactKey: Guid(7693daae6bc18e94bb3b5a2ddadebdab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_29.asset using Guid(7693daae6bc18e94bb3b5a2ddadebdab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61843ac4ebc84f9af4173c87feb51031') in 0.013151 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_17.asset
-  artifactKey: Guid(2766cf4a78540af48b00c63ccc90d7ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_17.asset using Guid(2766cf4a78540af48b00c63ccc90d7ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5b1e95444133d8a3d5c836d110fc9e5') in 0.012471 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_38.asset
-  artifactKey: Guid(05a4d1021e536b344addc94c26c60408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_38.asset using Guid(05a4d1021e536b344addc94c26c60408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c17dbac785a79253572cc4b5a56f096') in 0.013144 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000438 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_6.asset
-  artifactKey: Guid(de998da7ff5f3af4db025aa6ea163ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_6.asset using Guid(de998da7ff5f3af4db025aa6ea163ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d32e0d1c0786bfffe541d858c3bec23') in 0.012766 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000301 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_49.asset
-  artifactKey: Guid(26b6a9d592cc4a8459c67aa272cbfaa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_49.asset using Guid(26b6a9d592cc4a8459c67aa272cbfaa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec9b9baab9ede881f73087de9024ebb') in 0.011795 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000340 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_36.asset
-  artifactKey: Guid(33c57df5f3bd9d64bb0b81203f49bb04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_36.asset using Guid(33c57df5f3bd9d64bb0b81203f49bb04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8c929170f341fc18b10220c1db340ee') in 0.012259 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_1.asset
-  artifactKey: Guid(efdeb630a4751414b90d86907b53f5b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_1.asset using Guid(efdeb630a4751414b90d86907b53f5b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '261f0840afa519674bf18a1c03b31580') in 0.015161 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_22.asset
-  artifactKey: Guid(b0f79a0774a94a64d93db6ace48fff46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_22.asset using Guid(b0f79a0774a94a64d93db6ace48fff46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '711e0c4222d59a1c029a42c0156e64a1') in 0.013492 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_48.asset
-  artifactKey: Guid(5068af0d5a8c54240b144e3a67048523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_48.asset using Guid(5068af0d5a8c54240b144e3a67048523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72ef9f35c15c4abc969c189cff4251dd') in 0.011803 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000277 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_13.asset
-  artifactKey: Guid(01898dc30a01a58448c80cdf3ac7e17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_13.asset using Guid(01898dc30a01a58448c80cdf3ac7e17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '895d962b8e47de3272ee816bbe959e50') in 0.011843 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_27.asset
-  artifactKey: Guid(9a54b9b8897d3ea4ead23772e793389e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_27.asset using Guid(9a54b9b8897d3ea4ead23772e793389e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41a96039384712040f6d49894ef3f9e5') in 0.012033 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000341 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_52.asset
-  artifactKey: Guid(3f3a49027b6b72348a382622e5c30e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_52.asset using Guid(3f3a49027b6b72348a382622e5c30e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b3ce0d4d26359c14d799bf07ff835c0') in 0.012243 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_44.asset
-  artifactKey: Guid(676e52e8419ff7b4f92f2bade89d77b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_44.asset using Guid(676e52e8419ff7b4f92f2bade89d77b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cf15a971ad911b7220d3d264c8f5231') in 0.012290 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_31.asset
-  artifactKey: Guid(cfd8d4839ad0a2b4c9d7290039947b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_31.asset using Guid(cfd8d4839ad0a2b4c9d7290039947b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3bf2da6362cb942b9d2b9825d4fbdfd') in 0.018067 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000346 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_35.asset
-  artifactKey: Guid(dd0ab118a042218449d4fd36b5db3565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_35.asset using Guid(dd0ab118a042218449d4fd36b5db3565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d24b1067ede3d32e36568166895902c') in 0.014568 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_2.asset
-  artifactKey: Guid(79b32ec2758f81045b9d96a269950adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_2.asset using Guid(79b32ec2758f81045b9d96a269950adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8464fc9f4d6fd68614aec0fcc32d288c') in 0.016315 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_51.asset
-  artifactKey: Guid(5ae763b8e4b83cd4a9e06a0d48e8878d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_51.asset using Guid(5ae763b8e4b83cd4a9e06a0d48e8878d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26a1ec2cc4207148ecb1826a13561e53') in 0.012879 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001459 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_61.asset
-  artifactKey: Guid(ed9eea29abfb79b4e85ad89e56dd48fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_61.asset using Guid(ed9eea29abfb79b4e85ad89e56dd48fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a52b34d4fcfa4237731054388dc53e7') in 0.013356 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000393 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_0.asset
-  artifactKey: Guid(d9ba54fca2d16ff47a31b1a4168814bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_0.asset using Guid(d9ba54fca2d16ff47a31b1a4168814bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a0e8fa3e3f4a88775265aab43e02ccd') in 0.013187 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_41.asset
-  artifactKey: Guid(ab3d8f11ee45096448f7c7a5bc9f8c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_41.asset using Guid(ab3d8f11ee45096448f7c7a5bc9f8c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76ffd93dd8cf268115bc3d0b98931689') in 0.017908 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_7.asset
-  artifactKey: Guid(7d048c696fc6bcf4888c005a1790f4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_7.asset using Guid(7d048c696fc6bcf4888c005a1790f4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52e449c8c979828f831066cdbc6679c5') in 0.015600 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_45.asset
-  artifactKey: Guid(673af62a69dcda94da18926c4609c9fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_45.asset using Guid(673af62a69dcda94da18926c4609c9fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '896d31641fec13eeacdb764c1fadc4d3') in 0.013912 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000324 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_50.asset
-  artifactKey: Guid(454182b353157b74b82e33c277a59d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_50.asset using Guid(454182b353157b74b82e33c277a59d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba1a9454154dadb56c6b1cfbd2c139dd') in 0.017098 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_4.asset
-  artifactKey: Guid(57cd697f922d4b6429bf854d78472b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_4.asset using Guid(57cd697f922d4b6429bf854d78472b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3db9f621329ecb121f43b1643dcee861') in 0.014509 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_62.asset
-  artifactKey: Guid(3d4803ede849dc14eade07f4dc5941d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_62.asset using Guid(3d4803ede849dc14eade07f4dc5941d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c82b0907ca5da6c55372979eb5f1815d') in 0.015514 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_11.asset
-  artifactKey: Guid(8eb0bdf2472945e43a6ea4b27fe41ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_11.asset using Guid(8eb0bdf2472945e43a6ea4b27fe41ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14d18d04edee784800574ff9498768d6') in 0.018956 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.002097 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_15.asset
-  artifactKey: Guid(2f08b32764373e644bf0da7b6c548a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_15.asset using Guid(2f08b32764373e644bf0da7b6c548a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0f6ffd8446f8cd21c6fabd19c8b3d75') in 0.012205 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_8.asset
-  artifactKey: Guid(af0fdd090e3d02249bb4cd2b5ff67374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_8.asset using Guid(af0fdd090e3d02249bb4cd2b5ff67374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80f2af559204ea7fef4e782e70b7b39b') in 0.011598 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_40.asset
-  artifactKey: Guid(e7aa66fb097c92744872c652aaf1ec04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_40.asset using Guid(e7aa66fb097c92744872c652aaf1ec04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5265a262b6f42004ab0885adcb718693') in 0.011916 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_39.asset
-  artifactKey: Guid(f384dc888f3d58746afce69dd7f7cc56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_39.asset using Guid(f384dc888f3d58746afce69dd7f7cc56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b54dec5c240fcd9e5b4f248a8897e8e') in 0.011641 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_24.asset
-  artifactKey: Guid(38c97a71eac1b36429ad6711cdee2226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_24.asset using Guid(38c97a71eac1b36429ad6711cdee2226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2cd680266cb563601abde5cdf3e7cc6') in 0.013456 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_12.asset
-  artifactKey: Guid(cc984c8d7f42a0a46a1522dc3d3261ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_12.asset using Guid(cc984c8d7f42a0a46a1522dc3d3261ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29541e49470837f37bbb2f6a53eba14b') in 0.012010 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_56.asset
-  artifactKey: Guid(1c388e40d108a3d4a8c3d3a5bc857d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_56.asset using Guid(1c388e40d108a3d4a8c3d3a5bc857d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7c879dc4e81e7463b6ded36c21c1f2c') in 0.012496 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_67.asset
-  artifactKey: Guid(a8fe7a39b23105243ae0a331503e9fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_67.asset using Guid(a8fe7a39b23105243ae0a331503e9fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97b8e593f9d00f26d3f5962433bdda48') in 0.010688 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000277 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_55.asset
-  artifactKey: Guid(adc2ce6b16514c0449acea6f9558e51d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_55.asset using Guid(adc2ce6b16514c0449acea6f9558e51d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42675510cb6716bf080d1b6b188e4e08') in 0.012952 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_42.asset
-  artifactKey: Guid(e2eb2bc2440163b42b7e7495b44b3b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_42.asset using Guid(e2eb2bc2440163b42b7e7495b44b3b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '266a9f334caa3c832da9e546dc5d4143') in 0.013274 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_58.asset
-  artifactKey: Guid(a96bdddf99955ce459522d1585c1d12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_58.asset using Guid(a96bdddf99955ce459522d1585c1d12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70abc11a4e4f790ec10f89927ba79155') in 0.014158 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_65.asset
-  artifactKey: Guid(1966985512e9dcd4bb9d7a7a39703fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_65.asset using Guid(1966985512e9dcd4bb9d7a7a39703fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9850381d1a8b5d1313e59d2c15199eb8') in 0.014731 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_33.asset
-  artifactKey: Guid(0146966365fc2c745a7023a58291f884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_33.asset using Guid(0146966365fc2c745a7023a58291f884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf09e8cdea79d1fb781603c05fd2ed55') in 0.013853 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_23.asset
-  artifactKey: Guid(9af43a01dbc3e8647beb9fd8f88185d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Art/Palettes/Outdoor Floor Palette/RPGpack_sheet_23.asset using Guid(9af43a01dbc3e8647beb9fd8f88185d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c73e171ef5da33824cb5f4b4be905549') in 0.011860 seconds 
+  Time since last request: 30.097963 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(1b0ffe90b8f601e48b6cf9e7cfc33b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(1b0ffe90b8f601e48b6cf9e7cfc33b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '611c54d3d73f95db210667f61e306a9d') in 0.005047 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006308 seconds.
+Registered in 0.004727 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\Unity Projects\Scrolling-Screen-Game\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\Unity Projects\Scrolling-Screen-Game\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Users\Pete\Level 3 Year 1\Scrolling Screen Game\Scrolling-Screen-Game\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Users\Pete\Level 3 Year 1\Scrolling Screen Game\Scrolling-Screen-Game\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.66 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.407 seconds
+- Completed reload, in  1.049 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1407ms)
-		BeginReloadAssembly (150ms)
+	ReloadAssembly (1050ms)
+		BeginReloadAssembly (145ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (49ms)
-		EndReloadAssembly (1191ms)
-			LoadAssemblies (113ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (858ms)
+			LoadAssemblies (82ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (434ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (59ms)
-			SetupLoadedEditorAssemblies (461ms)
+			SetupTypeCache (304ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (340ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (77ms)
-				ProcessInitializeOnLoadAttributes (358ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (265ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.76 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.58 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3667 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 140.6 MB.
-System memory in use after: 140.8 MB.
+System memory in use before: 135.8 MB.
+System memory in use after: 136.1 MB.
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 4140.
-Total: 4.317800 ms (FindLiveObjects: 0.362300 ms CreateObjectMapping: 0.218500 ms MarkObjects: 3.669200 ms  DeleteObjects: 0.066800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008714 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\Unity Projects\Scrolling-Screen-Game\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\Unity Projects\Scrolling-Screen-Game\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.04 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.338 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1339ms)
-		BeginReloadAssembly (137ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (45ms)
-		EndReloadAssembly (1137ms)
-			LoadAssemblies (116ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (405ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (465ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (79ms)
-				ProcessInitializeOnLoadAttributes (363ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.74 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3667 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 140.6 MB.
-System memory in use after: 140.9 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 4144.
-Total: 4.363500 ms (FindLiveObjects: 0.339100 ms CreateObjectMapping: 0.307100 ms MarkObjects: 3.681600 ms  DeleteObjects: 0.034700 ms)
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 4130.
+Total: 3.142300 ms (FindLiveObjects: 0.224400 ms CreateObjectMapping: 0.135800 ms MarkObjects: 2.735800 ms  DeleteObjects: 0.045500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
