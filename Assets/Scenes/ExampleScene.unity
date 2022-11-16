@@ -219,9 +219,10 @@ GameObject:
   - component: {fileID: 746877026}
   - component: {fileID: 746877025}
   - component: {fileID: 746877029}
+  - component: {fileID: 746877030}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -342,6 +343,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullet: {fileID: 3050120782056107843, guid: 0277527e236faf14baeb6387e0ef6010, type: 3}
   firePoint: {fileID: 781955721}
+  damageAmount: 5
+  attackRange: 2
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 64
+--- !u!114 &746877030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 746877024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eccc39ea999ea8e46b859b27411cb90f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: 10
 --- !u!1 &781955721
 GameObject:
   m_ObjectHideFlags: 0
@@ -383,7 +402,8 @@ GameObject:
   - component: {fileID: 1435411157}
   - component: {fileID: 1435411156}
   - component: {fileID: 1435411155}
-  m_Layer: 0
+  - component: {fileID: 1435411158}
+  m_Layer: 6
   m_Name: Square (2)
   m_TagString: Target
   m_Icon: {fileID: 0}
@@ -482,6 +502,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1435411158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1435411154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c023e54d718c9f2428c2764e1baef86d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemySpeed: 2
+  enemyHealth: 5
+  attackRate: 1
+  attackDelay: 1
+  damageAmount: 2
+  attackDistance: 2
 --- !u!1 &1898161645
 GameObject:
   m_ObjectHideFlags: 0
@@ -493,7 +531,8 @@ GameObject:
   - component: {fileID: 1898161648}
   - component: {fileID: 1898161647}
   - component: {fileID: 1898161646}
-  m_Layer: 0
+  - component: {fileID: 1898161649}
+  m_Layer: 6
   m_Name: Square (3)
   m_TagString: Target
   m_Icon: {fileID: 0}
@@ -586,12 +625,30 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1898161645}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.2, y: 0.85, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -7.9504, y: -3.3104, z: 0}
+  m_LocalScale: {x: 2.8991, y: 2.8208, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1898161649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1898161645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c023e54d718c9f2428c2764e1baef86d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemySpeed: 2
+  enemyHealth: 25
+  attackRate: 1
+  attackDelay: 1
+  damageAmount: 2
+  attackDistance: 2
 --- !u!1 &1960021655
 GameObject:
   m_ObjectHideFlags: 0
@@ -603,7 +660,8 @@ GameObject:
   - component: {fileID: 1960021658}
   - component: {fileID: 1960021657}
   - component: {fileID: 1960021656}
-  m_Layer: 0
+  - component: {fileID: 1960021659}
+  m_Layer: 6
   m_Name: Square (4)
   m_TagString: Target
   m_Icon: {fileID: 0}
@@ -702,6 +760,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1960021659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1960021655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c023e54d718c9f2428c2764e1baef86d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemySpeed: 2
+  enemyHealth: 5
+  attackRate: 1
+  attackDelay: 1
+  damageAmount: 2
+  attackDistance: 2
 --- !u!1 &1990895741
 GameObject:
   m_ObjectHideFlags: 0
@@ -713,7 +789,8 @@ GameObject:
   - component: {fileID: 1990895744}
   - component: {fileID: 1990895743}
   - component: {fileID: 1990895742}
-  m_Layer: 0
+  - component: {fileID: 1990895745}
+  m_Layer: 6
   m_Name: Square (1)
   m_TagString: Target
   m_Icon: {fileID: 0}
@@ -812,6 +889,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1990895745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1990895741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c023e54d718c9f2428c2764e1baef86d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemySpeed: 2
+  enemyHealth: 5
+  attackRate: 1
+  attackDelay: 1
+  damageAmount: 2
+  attackDistance: 2
 --- !u!1 &2030565492
 GameObject:
   m_ObjectHideFlags: 0
@@ -823,7 +918,8 @@ GameObject:
   - component: {fileID: 2030565494}
   - component: {fileID: 2030565493}
   - component: {fileID: 2030565495}
-  m_Layer: 0
+  - component: {fileID: 2030565496}
+  m_Layer: 6
   m_Name: Square
   m_TagString: Target
   m_Icon: {fileID: 0}
@@ -922,6 +1018,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &2030565496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2030565492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c023e54d718c9f2428c2764e1baef86d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemySpeed: 2
+  enemyHealth: 5
+  attackRate: 1
+  attackDelay: 1
+  damageAmount: 2
+  attackDistance: 2
 --- !u!1 &2106572133
 GameObject:
   m_ObjectHideFlags: 0
