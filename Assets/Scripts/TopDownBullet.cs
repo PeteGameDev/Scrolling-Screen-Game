@@ -20,7 +20,7 @@ public class TopDownBullet : MonoBehaviour
     {
         if(other.CompareTag("Target"))
         {
-            enemy.GetComponent<BasicEnemy>().TakeDamage(bulletDamage);
+            other.GetComponent<BasicEnemy>().TakeDamage(bulletDamage);
         }
     }
 }
