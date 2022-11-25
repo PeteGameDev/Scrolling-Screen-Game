@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Target
   - Health Item
+  - Door
   layers:
   - Default
   - TransparentFX
